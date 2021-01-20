@@ -1,0 +1,42 @@
+.landing-text{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fbe2e5;
+}
+
+.landing-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+
+}
+
+.landing-text h1 {
+    font-size: 3rem;
+    font-family: 'Mada'sans-serif;
+    background:linear-gradient(to top, #b3b3b3, #ffcce6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding:1rem;
+    user-select: none;
+    
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem 0 5rem;
+    font-family: 'Mada', cursive;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: black;
+}
