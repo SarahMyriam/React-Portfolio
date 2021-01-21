@@ -34,30 +34,21 @@ function NavBar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to ="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        Sarah Myriam Bamba<i className='fas fa-feather-alt'/>
+                        Sarah Myriam Bamba <i className='fas fa-feather-alt'/>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click? "fas fa-heart" : "fas fa-bars"} />
                     </div>
                     <ul className={click? "nav-menu active" : "nav-menu"}>
+                        
                         <li className="nav-item">
-                            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                                Home
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                            <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
                                 About
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/portfolio" className="nav-links" onClick={closeMobileMenu}>
                                 Portfolio
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/Resume" className="nav-links" onClick={closeMobileMenu}>
-                                Resume
                             </Link>
                         </li>
                         <li className="nav-item">
